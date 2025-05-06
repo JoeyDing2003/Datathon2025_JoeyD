@@ -1,15 +1,12 @@
-# Datathon2025_Health
+# Datathon2025_Machine Learning Model_Health
 
-Dataset Claimer<br>
-	•	Raw dataset: Google Drive Link: https://drive.google.com/drive/folders/16ZSrxVzmHdv9ULz4QpT77pnI7DOLWwFO?usp=sharing <br>
-  	•	locally saved as Raw_Data.csv.<br>
-	•	Note: The raw file is too large (>100MB) to upload directly here.<br>
-	•	Refined dataset: After running Data_Cleaning.ipynb, a cleaned dataset Refined_Data.csv is generated for ML modeling, but also too large to upload <br> 
- 	•	Please check my Google Drive: https://drive.google.com/drive/folders/10uXV7a3ga6FpXmRwOiI3dZ1mjACG0I1X?usp=drive_link for 2 datasets <br> 
+## Data
+The data this repo depends on are too large (>100MB) to upload here so it is stored in this repo [Datathon2025_Data](https://github.com/JoeyDing2003/Datathon2025_Data) via git lfs
+
+ ## Functional coding files
+ This repo includes 2 coding files for tasks:
+ - `Data_Cleaning.ipynb`: conduct EDA and data cleaning on `Raw_Data.csv` and then generate `Refined_Data.csv`, which are all stored in [Datathon2025_Data](https://github.com/JoeyDing2003/Datathon2025_Data)
+ - `ML_Modeling.ipynb`: use `Refined_Data.csv` as Training/Testing dataset to build and evaluate machine learning models.
  
-
-Data_Cleaning.ipynb:<br>
-Exploratory Data Analysis and Data Cleaning<br>
-
-ML_Modeling.ipynb:<br>
-Feature selection, ML modeling, evluation and prediction using "Refined_Data.csv"<br>
+## Conda Environment config
+`Data-ML.yml` is the description of conda environment where .ipynb files are locally run
